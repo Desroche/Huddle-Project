@@ -1,0 +1,134 @@
+body {
+    background: url(bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    margin: 0%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#photo__logo {
+    margin-top: 64px;
+    margin-left: 80px;
+}
+
+.page__body {
+    display: inline-flex;
+}
+
+.page__content {
+    height: 305px;
+    width: 520px;
+    padding-left: 43px;
+    margin-right: 85px;
+    margin-left: 16px;
+    margin-top: 105px;
+}
+
+#header__font {
+    font-family: Poppins;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.page__content #content {
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.page__content #button {
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
+    border: #f2f2f2;
+    background-color: #f2f2f2;
+    color: #684BB1;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+    cursor: pointer;
+}
+
+.page__content #button:active {
+    background-color: #E880E8;
+    color: #f2f2f2;
+}
+
+#photo__body {
+    margin-left: 80px;
+    margin-top: 113px;
+}
+
+.footer__icons {
+    width: 152px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    display: inline-flex;
+}
+
+.footer__icons #facebook__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border: 1.17647px solid #FFFFFF;
+    border-radius: 30%;
+}
+
+.footer__icons #facebook__icon:active {
+    border-color: #E880E8;
+}
+
+.footer__icons #twitter__icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border: 1.17647px solid #FFFFFF;
+    border-radius: 30%;
+}
+
+.footer__icons #twitter__icon:active {
+    border-color: #E880E8;
+}
+
+.footer__icons #instagram__icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border: 1.17647px solid #FFFFFF;
+    border-radius: 30%;
+}
+
+.footer__icons #instagram__icon:active {
+    border-color: #E880E8;
+}
+
+
+@media only screen and (max-width: 425px) {
+    main {
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    body {
+        background: no-repeat url(bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+    }
+}
